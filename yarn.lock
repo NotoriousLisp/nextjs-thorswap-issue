@@ -170,6 +170,35 @@
   dependencies:
     tslib "^2.4.0"
 
+"@thorswap-lib/helpers@0.0.0-development.25":
+  version "0.0.0-development.25"
+  resolved "https://registry.yarnpkg.com/@thorswap-lib/helpers/-/helpers-0.0.0-development.25.tgz#fc21d425a72788cc7e2074f3170c508c48c0cc09"
+  integrity sha512-RbSgS6uZLWtja4xil11CEpPOLZsHzZTN4mg8ILICumfSzbwHOWBngZuk0g4xA77xywWazRxighR9GYyZhZD9hA==
+  dependencies:
+    "@thorswap-lib/multichain-entities" "0.3.0-development.32"
+    "@thorswap-lib/types" "0.4.0-development.33"
+
+"@thorswap-lib/multichain-entities@0.3.0-development.32":
+  version "0.3.0-development.32"
+  resolved "https://registry.yarnpkg.com/@thorswap-lib/multichain-entities/-/multichain-entities-0.3.0-development.32.tgz#a95aafe86ff35ada4cfda46c0a5d5b8eaff9d54a"
+  integrity sha512-8HC0Sj9cvIsYDR7/xG7pSug3W4tvybFLaNmtHhUbRSsk1xWZzxk+XFXHFwhERwt/bNnjwiUZOHbu/82ZogODjg==
+  dependencies:
+    "@thorswap-lib/types" "0.4.0-development.33"
+
+"@thorswap-lib/toolbox-evm@^0.1.0-development.33":
+  version "0.1.0-development.33"
+  resolved "https://registry.yarnpkg.com/@thorswap-lib/toolbox-evm/-/toolbox-evm-0.1.0-development.33.tgz#442add1b1562023736c98ff7c023f8693c318339"
+  integrity sha512-/n9b4j3Jws2oeywhLgjg+F+2/X6CnoiznQJn22uXzeR2jiuIuOrqcHyOMtQQZfcyzzQlne2n61KQuS1lC/bPlA==
+  dependencies:
+    "@thorswap-lib/helpers" "0.0.0-development.25"
+    "@thorswap-lib/multichain-entities" "0.3.0-development.32"
+    "@thorswap-lib/types" "0.4.0-development.33"
+
+"@thorswap-lib/types@0.4.0-development.33":
+  version "0.4.0-development.33"
+  resolved "https://registry.yarnpkg.com/@thorswap-lib/types/-/types-0.4.0-development.33.tgz#4a31d4027f9f50df0c8f44e5264084610e75bf02"
+  integrity sha512-1Q7aNHQQBxvz9S1Y2wBREC+ZEbcRu0AyWRk1PDopfEukx7YxS79K4t+JON6ryKBYslPc5LYkKbnRVMYoWOlKlw==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
